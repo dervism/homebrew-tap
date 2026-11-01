@@ -1,18 +1,26 @@
-# Dervism Tap
+# dervism's Homebrew tap
 
-## How do I install these formulae?
+## git-agent
 
-`brew install dervism/tap/<formula>`
+[git-agent](https://github.com/dervism/git-agent) writes git commit messages for your
+changes with a language model, running on your own machine or at a cloud provider.
 
-Or `brew tap dervism/tap` and then `brew install <formula>`.
+```sh
+brew install dervism/tap/git-agent
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Homebrew builds git-agent from source, and installs its own Rust for the build if you
+don't have it yet. `brew upgrade git-agent` updates it.
+
+## Other ways to use this tap
+
+`brew tap dervism/tap` and then `brew install <formula>`, or in a `brew bundle`
+`Brewfile`:
 
 ```ruby
 tap "dervism/tap"
 brew "<formula>"
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`brew help`, `man brew` or [Homebrew's documentation](https://docs.brew.sh) explain
+the rest.
