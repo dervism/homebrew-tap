@@ -1,8 +1,8 @@
 class GitAgent < Formula
   desc "Generate git commit messages from your changes with a language model"
   homepage "https://github.com/dervism/git-agent"
-  url "https://github.com/dervism/git-agent/archive/refs/tags/v0.9.0.tar.gz"
-  sha256 "2afe2fac86f5ad9defff5966065c525d75260e750dd672f3aed10c1fed581dd9"
+  url "https://github.com/dervism/git-agent/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "62d833d5cd34761654ec799a1057c24482baa4313dadb887a4a22c07a7ef254e"
   license "MIT"
   head "https://github.com/dervism/git-agent.git", branch: "master"
 
