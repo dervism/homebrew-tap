@@ -7,6 +7,7 @@ Homebrew formulae for projects by [dervism](https://github.com/dervism).
 | Formula | Description |
 | --- | --- |
 | [git-agent](#git-agent) | Generate git commit messages from your changes with a language model |
+| [egon-mcp](#egon-mcp) | MCP server for creating, editing, checking and rendering Egon.io domain stories |
 
 ### git-agent
 
@@ -15,6 +16,15 @@ changes with a language model, running on your own machine or at a cloud provide
 Homebrew builds it from source, and installs its own Rust for the build if you don't
 have it yet. Its [README](https://github.com/dervism/git-agent#readme) explains how to
 set it up.
+
+### egon-mcp
+
+[egon-mcp](https://github.com/dervism/egon-mcp) lets AI agents create, edit, check and
+render domain stories for [Egon.io](https://egon.io), the Domain Storytelling modeler.
+Homebrew installs it from npm with its own Node, and links the agent skill that comes
+with it to `$(brew --prefix egon-mcp)/share/egon-mcp/skill`. Its
+[README](https://github.com/dervism/egon-mcp#readme) explains how to connect it to
+Claude Code or Claude Desktop.
 
 ## Installing
 
