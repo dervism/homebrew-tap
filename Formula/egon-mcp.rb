@@ -1,8 +1,8 @@
 class EgonMcp < Formula
   desc "MCP server for creating, editing, checking and rendering Egon.io domain stories"
   homepage "https://github.com/dervism/egon-mcp"
-  url "https://registry.npmjs.org/egon-mcp/-/egon-mcp-0.1.1.tgz"
-  sha256 "755bef7349e802f5fd74a2d13fbe32b83383297ee81eb76b2c85e6f35a9ea21e"
+  url "https://registry.npmjs.org/egon-mcp/-/egon-mcp-0.2.0.tgz"
+  sha256 "6e7c82320123f029b28afcc865a63778a96c4df3d1cf335e8cb524afe37b892b"
   license "GPL-3.0-or-later"
 
   bottle do
