@@ -6,9 +6,9 @@ class EgonMcp < Formula
   license "GPL-3.0-or-later"
 
   bottle do
-    root_url "https://github.com/dervism/homebrew-tap/releases/download/egon-mcp-0.1.1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "d043f890e9f8833a6fe604be871f4aa119d04168c3133a9c9219f5f241f2f26a"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "7c144166857d5d06f65efe1d4a20352cd2e4bab5af31a0382b87c8b4100dfc08"
+    root_url "https://github.com/dervism/homebrew-tap/releases/download/egon-mcp-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "8f0db814bc81f8e1b83107ce22bc4ca72c8d558647e82f99d5f7fe0866ec9cdc"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "9c7c088fb71ae1a97e4f7db98ccd1c928c464bf2c89b192188f4a9a9c416dcc3"
   end
 
   depends_on "node"
